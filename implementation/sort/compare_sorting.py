@@ -33,7 +33,7 @@ def quick(l):
     return qsort(l)
 
 if __name__ == '__main__':
-    ll = [randrange(1, 12200) for i in xrange(222222)]
-#    insert_sort(ll)
+    ll = [randrange(1, 12200) for i in xrange(22222)]
+    quick(ll)
     merge(ll)
-#    qsort(ll)
+    insert_sort(ll)
