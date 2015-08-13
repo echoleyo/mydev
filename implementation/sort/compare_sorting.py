@@ -35,5 +35,7 @@ def quick(l):
 if __name__ == '__main__':
     ll = [randrange(1, 12200) for i in xrange(22222)]
     quick(ll)
-    merge(ll)
-    insert_sort(ll)
+    ss = [randrange(1, 12200) for i in xrange(22222)]
+    merge(ss)
+    qq = [randrange(1, 12200) for i in xrange(22222)]
+    insert_sort(qq)
